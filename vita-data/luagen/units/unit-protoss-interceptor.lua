@@ -1,0 +1,21 @@
+DefineUnitType("unit-protoss-interceptor", {Name = "Protoss Interceptor"
+, Image = image_116_protoss_intercep
+, Shadow = {"offset", {15, 15}, "scale", 1}
+, Icon = "icon-terran-command-center"
+, Animations = "animations-dummy-still"
+, Portrait = portrait_pinterce
+, HitPoints = 20
+, TileSize = {2, 2}
+, BoxSize = {15, 15}
+, SightRange = 24
+, ComputerReactionRange = math.ceil(24 * ComputerReactionRangeFactor)
+, PersonReactionRange = math.floor(24 * PersonReactionRangeFactor)
+, NumDirections = image_116_protoss_intercep_NumDirections
+, AirUnit = true
+, Type = "fly"
+, Building = false
+, organic = false
+, LandUnit = false
+, Costs = {"time", 75, "minerals", 30, "gas", 0}
+, Sounds = {}
+})

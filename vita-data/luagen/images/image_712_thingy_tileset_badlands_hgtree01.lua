@@ -1,0 +1,5 @@
+image_712_thingy_tileset_badlands_hgtree01_file = "graphics/unit/thingy/tileset/badlands/hgtree01.png"
+image_712_thingy_tileset_badlands_hgtree01_size = {192, 192}
+image_712_thingy_tileset_badlands_hgtree01_NumDirections = 1
+image_712_thingy_tileset_badlands_hgtree01 = {"file", image_712_thingy_tileset_badlands_hgtree01_file, "size", image_712_thingy_tileset_badlands_hgtree01_size}
+image_712_thingy_tileset_badlands_hgtree01_var = {File = image_712_thingy_tileset_badlands_hgtree01_file, Size = image_712_thingy_tileset_badlands_hgtree01_size}

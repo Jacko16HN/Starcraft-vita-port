@@ -1,0 +1,5 @@
+image_684_thingy_tileset_platform_lbsign04_file = "graphics/unit/thingy/tileset/platform/lbsign04.png"
+image_684_thingy_tileset_platform_lbsign04_size = {192, 224}
+image_684_thingy_tileset_platform_lbsign04_NumDirections = 1
+image_684_thingy_tileset_platform_lbsign04 = {"file", image_684_thingy_tileset_platform_lbsign04_file, "size", image_684_thingy_tileset_platform_lbsign04_size}
+image_684_thingy_tileset_platform_lbsign04_var = {File = image_684_thingy_tileset_platform_lbsign04_file, Size = image_684_thingy_tileset_platform_lbsign04_size}

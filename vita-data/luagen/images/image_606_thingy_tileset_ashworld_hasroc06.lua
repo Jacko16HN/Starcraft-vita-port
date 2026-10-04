@@ -1,0 +1,5 @@
+image_606_thingy_tileset_ashworld_hasroc06_file = "graphics/unit/thingy/tileset/ashworld/hasroc06.png"
+image_606_thingy_tileset_ashworld_hasroc06_size = {128, 160}
+image_606_thingy_tileset_ashworld_hasroc06_NumDirections = 1
+image_606_thingy_tileset_ashworld_hasroc06 = {"file", image_606_thingy_tileset_ashworld_hasroc06_file, "size", image_606_thingy_tileset_ashworld_hasroc06_size}
+image_606_thingy_tileset_ashworld_hasroc06_var = {File = image_606_thingy_tileset_ashworld_hasroc06_file, Size = image_606_thingy_tileset_ashworld_hasroc06_size}

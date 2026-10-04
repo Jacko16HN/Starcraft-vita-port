@@ -1,0 +1,1 @@
+portrait_ngastank = {"talking"}

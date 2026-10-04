@@ -1,0 +1,5 @@
+image_599_thingy_tileset_ashworld_lalroc01_file = "graphics/unit/thingy/tileset/ashworld/lalroc01.png"
+image_599_thingy_tileset_ashworld_lalroc01_size = {128, 192}
+image_599_thingy_tileset_ashworld_lalroc01_NumDirections = 1
+image_599_thingy_tileset_ashworld_lalroc01 = {"file", image_599_thingy_tileset_ashworld_lalroc01_file, "size", image_599_thingy_tileset_ashworld_lalroc01_size}
+image_599_thingy_tileset_ashworld_lalroc01_var = {File = image_599_thingy_tileset_ashworld_lalroc01_file, Size = image_599_thingy_tileset_ashworld_lalroc01_size}

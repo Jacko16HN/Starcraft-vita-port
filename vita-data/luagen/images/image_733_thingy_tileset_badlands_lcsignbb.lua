@@ -1,0 +1,5 @@
+image_733_thingy_tileset_badlands_lcsignbb_file = "graphics/unit/thingy/tileset/badlands/lcsignbb.png"
+image_733_thingy_tileset_badlands_lcsignbb_size = {192, 224}
+image_733_thingy_tileset_badlands_lcsignbb_NumDirections = 1
+image_733_thingy_tileset_badlands_lcsignbb = {"file", image_733_thingy_tileset_badlands_lcsignbb_file, "size", image_733_thingy_tileset_badlands_lcsignbb_size}
+image_733_thingy_tileset_badlands_lcsignbb_var = {File = image_733_thingy_tileset_badlands_lcsignbb_file, Size = image_733_thingy_tileset_badlands_lcsignbb_size}

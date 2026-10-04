@@ -1,0 +1,5 @@
+image_718_thingy_tileset_badlands_lcshop06_file = "graphics/unit/thingy/tileset/badlands/lcshop06.png"
+image_718_thingy_tileset_badlands_lcshop06_size = {192, 160}
+image_718_thingy_tileset_badlands_lcshop06_NumDirections = 1
+image_718_thingy_tileset_badlands_lcshop06 = {"file", image_718_thingy_tileset_badlands_lcshop06_file, "size", image_718_thingy_tileset_badlands_lcshop06_size}
+image_718_thingy_tileset_badlands_lcshop06_var = {File = image_718_thingy_tileset_badlands_lcshop06_file, Size = image_718_thingy_tileset_badlands_lcshop06_size}

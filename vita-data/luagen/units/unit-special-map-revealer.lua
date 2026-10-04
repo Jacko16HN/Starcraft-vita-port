@@ -1,0 +1,21 @@
+DefineUnitType("unit-special-map-revealer", {Name = "Map Revealer"
+, Image = image_582_neutral_maprev
+, Shadow = {"offset", {15, 15}, "scale", 1}
+, Icon = "icon-terran-command-center"
+, Animations = "animations-dummy-still"
+, Portrait = portrait_tmarine
+, HitPoints = 1
+, TileSize = {3, 3}
+, BoxSize = {26, 30}
+, SightRange = 40
+, ComputerReactionRange = math.ceil(40 * ComputerReactionRangeFactor)
+, PersonReactionRange = math.floor(40 * PersonReactionRangeFactor)
+, NumDirections = image_582_neutral_maprev_NumDirections
+, AirUnit = true
+, Type = "fly"
+, Building = false
+, organic = false
+, LandUnit = false
+, Costs = {"time", 0, "minerals", 0, "gas", 0}
+, Sounds = {}
+})

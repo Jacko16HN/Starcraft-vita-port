@@ -1,0 +1,5 @@
+image_689_thingy_tileset_platform_spthin01_file = "graphics/unit/thingy/tileset/platform/spthin01.png"
+image_689_thingy_tileset_platform_spthin01_size = {128, 96}
+image_689_thingy_tileset_platform_spthin01_NumDirections = 1
+image_689_thingy_tileset_platform_spthin01 = {"file", image_689_thingy_tileset_platform_spthin01_file, "size", image_689_thingy_tileset_platform_spthin01_size}
+image_689_thingy_tileset_platform_spthin01_var = {File = image_689_thingy_tileset_platform_spthin01_file, Size = image_689_thingy_tileset_platform_spthin01_size}

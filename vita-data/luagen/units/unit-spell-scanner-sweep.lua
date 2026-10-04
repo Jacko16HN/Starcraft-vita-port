@@ -1,0 +1,21 @@
+DefineUnitType("unit-spell-scanner-sweep", {Name = "Scanner Sweep"
+, Image = image_246_terran_marine
+, Shadow = {"offset", {15, 15}, "scale", 1}
+, Icon = "icon-terran-command-center"
+, Animations = "animations-dummy-still"
+, Portrait = portrait_tmarine
+, HitPoints = 256
+, TileSize = {3, 3}
+, BoxSize = {26, 30}
+, SightRange = 40
+, ComputerReactionRange = math.ceil(40 * ComputerReactionRangeFactor)
+, PersonReactionRange = math.floor(40 * PersonReactionRangeFactor)
+, NumDirections = image_246_terran_marine_NumDirections
+, AirUnit = true
+, Type = "fly"
+, Building = false
+, organic = false
+, LandUnit = false
+, Costs = {"time", 0, "minerals", 0, "gas", 0}
+, Sounds = {}
+})

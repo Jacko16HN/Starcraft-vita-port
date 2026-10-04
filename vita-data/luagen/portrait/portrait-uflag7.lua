@@ -1,0 +1,1 @@
+portrait_uflag7 = {"talking"}

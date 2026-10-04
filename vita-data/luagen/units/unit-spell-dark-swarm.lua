@@ -1,0 +1,21 @@
+DefineUnitType("unit-spell-dark-swarm", {Name = "Dark Swarm"
+, Image = image_337_thingy_dswarm
+, Shadow = {"offset", {15, 15}, "scale", 1}
+, Icon = "icon-terran-command-center"
+, Animations = "animations-dummy-still"
+, Portrait = portrait_tadvisor
+, HitPoints = 800
+, TileSize = {20, 20}
+, BoxSize = {159, 159}
+, SightRange = 32
+, ComputerReactionRange = math.ceil(32 * ComputerReactionRangeFactor)
+, PersonReactionRange = math.floor(32 * PersonReactionRangeFactor)
+, NumDirections = image_337_thingy_dswarm_NumDirections
+, AirUnit = false
+, Type = "land"
+, Building = false
+, organic = false
+, LandUnit = true
+, Costs = {"time", 600, "minerals", 250, "gas", 200}
+, Sounds = {}
+})

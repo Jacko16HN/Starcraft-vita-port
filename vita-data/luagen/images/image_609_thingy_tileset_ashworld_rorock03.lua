@@ -1,0 +1,5 @@
+image_609_thingy_tileset_ashworld_rorock03_file = "graphics/unit/thingy/tileset/ashworld/rorock03.png"
+image_609_thingy_tileset_ashworld_rorock03_size = {128, 128}
+image_609_thingy_tileset_ashworld_rorock03_NumDirections = 1
+image_609_thingy_tileset_ashworld_rorock03 = {"file", image_609_thingy_tileset_ashworld_rorock03_file, "size", image_609_thingy_tileset_ashworld_rorock03_size}
+image_609_thingy_tileset_ashworld_rorock03_var = {File = image_609_thingy_tileset_ashworld_rorock03_file, Size = image_609_thingy_tileset_ashworld_rorock03_size}

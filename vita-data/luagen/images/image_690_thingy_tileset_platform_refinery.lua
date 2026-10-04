@@ -1,0 +1,5 @@
+image_690_thingy_tileset_platform_refinery_file = "graphics/unit/thingy/tileset/platform/refinery.png"
+image_690_thingy_tileset_platform_refinery_size = {128, 128}
+image_690_thingy_tileset_platform_refinery_NumDirections = 1
+image_690_thingy_tileset_platform_refinery = {"file", image_690_thingy_tileset_platform_refinery_file, "size", image_690_thingy_tileset_platform_refinery_size}
+image_690_thingy_tileset_platform_refinery_var = {File = image_690_thingy_tileset_platform_refinery_file, Size = image_690_thingy_tileset_platform_refinery_size}

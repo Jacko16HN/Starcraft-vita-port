@@ -1,0 +1,21 @@
+DefineUnitType("unit-hero-aldaris", {Name = "Aldaris"
+, Image = image_126_protoss_templar
+, Shadow = {"offset", {-7, -7}, "scale", 1}
+, Icon = "icon-terran-command-center"
+, Animations = "animations-dummy-still"
+, Portrait = portrait_padvisor
+, HitPoints = 80
+, TileSize = {3, 3}
+, BoxSize = {23, 27}
+, SightRange = 28
+, ComputerReactionRange = math.ceil(28 * ComputerReactionRangeFactor)
+, PersonReactionRange = math.floor(28 * PersonReactionRangeFactor)
+, NumDirections = image_126_protoss_templar_NumDirections
+, AirUnit = false
+, Type = "land"
+, Building = false
+, organic = true
+, LandUnit = true
+, Costs = {"time", 375, "minerals", 100, "gas", 300}
+, Sounds = {}
+})

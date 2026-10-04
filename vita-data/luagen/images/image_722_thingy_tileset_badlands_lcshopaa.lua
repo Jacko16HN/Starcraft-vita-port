@@ -1,0 +1,5 @@
+image_722_thingy_tileset_badlands_lcshopaa_file = "graphics/unit/thingy/tileset/badlands/lcshopaa.png"
+image_722_thingy_tileset_badlands_lcshopaa_size = {192, 160}
+image_722_thingy_tileset_badlands_lcshopaa_NumDirections = 1
+image_722_thingy_tileset_badlands_lcshopaa = {"file", image_722_thingy_tileset_badlands_lcshopaa_file, "size", image_722_thingy_tileset_badlands_lcshopaa_size}
+image_722_thingy_tileset_badlands_lcshopaa_var = {File = image_722_thingy_tileset_badlands_lcshopaa_file, Size = image_722_thingy_tileset_badlands_lcshopaa_size}

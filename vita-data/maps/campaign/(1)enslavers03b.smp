@@ -1,0 +1,5 @@
+-- Stratagus Map Presentation
+-- File generated automatically from scmconvert V1.0
+
+DefinePlayerTypes("computer","person","rescue-passive","computer","computer","neutral","rescue-passive","computer","nobody","nobody","nobody","nobody","nobody","nobody","nobody","nobody")
+PresentMap("none", 2, 1024, 384, 0)

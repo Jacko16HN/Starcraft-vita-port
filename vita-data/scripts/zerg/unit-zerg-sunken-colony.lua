@@ -1,0 +1,47 @@
+--
+-- unit-zerg-sunken-colony
+--
+
+
+DefineAnimations("animations-zerg-sunken-colony", {
+  Still = {
+    "frame 0", "wait 2", "frame 1", "wait 2", "frame 2", "wait 2",
+  },
+  Attack = { --[[ frames 3-13, 14-23, 24-33 ]]
+    "unbreakable begin", "sound zerg-sunken-colony-attack", 
+    "frame 24", "wait 1", "frame 25", "wait 1", "frame 26", "wait 1",
+    "frame 27", "wait 1", "frame 28", "wait 1", "frame 29", "wait 1",
+    "frame 30", "wait 1", "frame 31", "wait 1", "frame 32", "wait 1",
+    "frame 33", "wait 1", "attack", "wait 6",
+    "frame 32", "wait 1", "frame 31", "wait 1", "frame 30", "wait 1",
+    "frame 29", "wait 1", "frame 28", "wait 1", "frame 27", "wait 1",
+    "frame 26", "wait 1", "frame 25", "wait 1", "frame 24",
+    "unbreakable end", "wait 5", "sound zerg-sunken-colony-hit",  "wait 20",
+  },  
+})
+
+
+DefineUnitType("unit-zerg-sunken-colony", {
+  Animations = "animations-zerg-sunken-colony", Icon = "icon-zerg-sunken-colony",
+  RepairHp = 4,
+  RepairCosts = {"minerals", 1, "gas", 1},
+  Construction = "construction-zerg",
+  Speed = 0,
+  DrawLevel = 30,
+  Armor = 20, BasicDamage = 20, PiercingDamage = 5, Missile = "missile-none",
+  MaxAttackRange = 7,
+  Priority = 15, AnnoyComputerFactor = 20,
+  Points = 170,
+  --Corpse = "unit-destroyed-3x3-place",
+  ExplodeWhenKilled = "missile-terran-explosion-large",
+  RightMouseAction = "attack",
+  BuilderLost = true,
+  RegenerationRate = 1,
+  CanAttack = true,
+  CanTargetLand = true,
+  VisibleUnderFog = true,
+  Sounds = {
+    "selected", "zerg-sunken-colony-selected",
+    "ready", "zerg-building-ready",
+    "help", "zerg-base-attacked",
+    "dead", "zerg-building-blowup"} } )

@@ -1,0 +1,5 @@
+image_703_thingy_tileset_badlands_hdvent01_file = "graphics/unit/thingy/tileset/badlands/hdvent01.png"
+image_703_thingy_tileset_badlands_hdvent01_size = {128, 96}
+image_703_thingy_tileset_badlands_hdvent01_NumDirections = 1
+image_703_thingy_tileset_badlands_hdvent01 = {"file", image_703_thingy_tileset_badlands_hdvent01_file, "size", image_703_thingy_tileset_badlands_hdvent01_size}
+image_703_thingy_tileset_badlands_hdvent01_var = {File = image_703_thingy_tileset_badlands_hdvent01_file, Size = image_703_thingy_tileset_badlands_hdvent01_size}

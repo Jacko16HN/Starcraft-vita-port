@@ -1,0 +1,17 @@
+</COMMENT Establishing Shot for Terran Level 8>
+
+</FADESPEED 100>
+</DISPLAYTIME 5000>
+
+</COMMENT #############################################################>
+</BACKGROUND glue\paltb\TerranB.pcx>
+</FONTCOLOR glue\paltb\tfont.pcx>
+
+</SCREENLOWERLEFT>
+"THE TRUMP CARD"
+
+Secret Staging Area
+Antiga Prime Colony
+</PAGE>
+>
+caped wit¨ó"³U
